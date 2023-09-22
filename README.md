@@ -1,1 +1,0 @@
-# MCM-Sssignment-1-R-Basics-Reading-Data
