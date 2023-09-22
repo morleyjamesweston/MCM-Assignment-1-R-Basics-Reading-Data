@@ -40,8 +40,6 @@ str_split_1(student_name, " ")
 
 # COMMENT GOES HERE
 country_codes_iso3 <- c("USA", "CAN", "MEX")
-
-# COMMENT GOES HERE
 toupper("usa") %in% country_codes_iso3
 
 # COMMENT GOES HERE
@@ -49,6 +47,9 @@ textcat("Excusez-moi, où se trouve la bibliothèque?")
 
 # COMMENT GOES HERE
 str_replace_all("Canton", "C", "K")
+
+# COMMENT GOES HERE
+str_length(student_name) < 12
 
 # COMMENT GOES HERE
 news_article <- read_file("input_data/news_article.txt")
@@ -80,7 +81,7 @@ for (person in famous_people) {
 famous_people <- c(famous_people student_name)
 
 # BUG 2
-if (length(student_name) = 10) {
+if (str_length(student_name) = 10) {
     print("Your name is 10 characters long.")
 } else {
     print("Your name is not 10 characters long.")
